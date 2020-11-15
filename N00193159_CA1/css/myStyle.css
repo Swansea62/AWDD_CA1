@@ -1,0 +1,147 @@
+.siteLogin{
+    float:right;
+}
+
+body{
+    background:#201D1F;
+    font-family: 'Poppins', sans-serif;
+}
+
+style{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.myRow{
+    background:#17C3B2;
+    border-style:solid;
+    border-color:#0B4F6C;
+}
+
+.formRow{
+    background:#17C3B2;
+    padding-left:20px;
+}
+
+.formHeading{
+    padding-left:145px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formBackground{
+    border-style:solid;
+    border-color:#0B4F6C;
+    background-color:#17C3B2;
+    padding:10px;
+}
+
+.soonHeading{
+    padding-left:325px;
+}
+
+.labelText{
+    color:#FEF9EF;
+}
+
+.inputStyle{
+    background:#17C3B2;
+    color:#FEF9EF;
+}
+
+.invalidStyle{
+    color:#17C3B2;
+}
+
+h1{
+    color:#FEF9EF;
+}
+
+h2{
+    color:#FEF9EF;
+}
+
+.imgSize{
+    width:1140px;
+    height:2208px;
+}
+
+.padding{
+    padding-left:50px;
+}
+
+.btnPadding{
+    padding-top: 25px;
+    padding-left: 150px;
+    padding-bottom:10px;
+}
+
+.btnSize{
+    border-color: #0B4F6C;
+    width: 400px;
+    height: 75px;
+    background: #0B4F6C;
+    color: #FEF9EF;
+}
+
+.btnSize:hover{
+    background: #1AC8ED;
+    border-color: #0B4F6C;
+}
+
+.btnText{
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 40px;
+    font-size: 24px;
+}
+
+.btnStyle{
+    border-style:solid;
+    border-color:#0B4F6C;
+    border-width:2px;
+}
+
+.btnStyle:hover{
+    background:#1AC8ED;
+}
+
+.menuItems{
+    color: #FEF9EF;
+}
+
+.tableStyle{
+    background-color:#17C3B2;
+    border-style:solid;
+    border-color:#0B4F6C;
+}
+
+caption{
+    color:#FEF9EF;
+    font-weight: bold;
+    font-style:italic;
+}
+
+a:hover{
+    color:#1AC8ED;
+    text-decoration: none;
+}
+
+.theadStyle{
+    background-color:#17C3B2;
+    border-style:solid;
+    border-color:#0B4F6C;
+}
+
+th, td{
+    color:#FEF9EF;
+}
+
+.footerText{
+    position:absolute;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:100%;
+    color: #FEF9EF;
+    text-align: center;
+    background-color:#0B4F6C;
+}

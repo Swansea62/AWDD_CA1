@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrinkt-to-fit=no">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <title>Festivals Galore!</title>
+        
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #0B4F6C;">
+  <a class="navbar-brand" href="index.html">Festival Bazaar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="form.html">Add</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Booking</a>
+      </li>
+      <li class="nav-item dropdown">
+        <div class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Countries
+          </div>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">United Kingdom</a>
+            <a class="dropdown-item" href="#">United States</a>
+            <a class="dropdown-item" href="#">Germany</a>
+            <a class="dropdown-item" href="#">Hungary</a>
+            <a class="dropdown-item" href="#">Portugal</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+        
+        <link rel="stylesheet" typ="text/css" href="css/myStyle.css">
+        <link rel="stylesheet" typ="text/css" href="css/hoverCards.css">
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6a5de49192.js" crossorigin="anonymous"></script>
+
+    </head>        
+        <body style="background-image: url(images/formBackground.jpg);">
+            <div class="container">
+            <div class="row">
+                <h1>Hello World!</h1>
+            </div>
+                <br>
+            <div class="row myRow formHeading">
+                <h2>Fill out the form below and click "Add" to add your festival!</h2>
+            </div>
+                
+                <br>
+                <br>
+            
+                <form class="formBackground needs-validation" novalidate>
+                    <div class="form-group">
+                    <label class="labelText" for="validationCustom01">Festival</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="The Example Festival" required>
+                        <div class="invalid-feedback invalidStyle">
+                            Please input a name
+                        </div>
+                    </div>
+                  <br>
+                    <div class="form-group">
+                        <label class="labelText" for="validationCustom01">URL</label>
+                        <input type="URL" class="form-control" id="exampleFormControlInput1" placeholder="https://www.example.com" required>
+                        <div class="invalid-feedback invalidStyle">
+                            Please input a valid URL
+                        </div>
+                    </div>
+                  <br>
+                    <div class="form-row">
+                        <div class="form-group col-6">
+                            <label class="labelText" for="validationServer04">Country</label>
+                            <select class="custom-select" id="validationServer04" aria-  describedby="validationServer04Feedback" required>
+                                    <option class="inputStyle" selected disabled value="">Please Select</option>
+                                    <option class="inputStyle">United Kingdom</option>
+                                    <option class="inputStyle">United States</option>
+                                    <option class="inputStyle">Ireland</option>
+                                    <option class="inputStyle">Hungary</option>
+                                    <option class="inputStyle">Portugal</option>
+                                </select>
+                            <div class="invalid-feedback invalidStyle">
+                                Please select a country
+                            </div>
+                        </div>
+                    <br>
+                        <div class="form-group col-3">
+                            <label class="labelText" for="validationServer04">Month</label>
+                                <select class="custom-select" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                                    <option class="inputStyle" selected disabled value="">Please Select</option>
+                                    <option class="inputStyle">May</option>
+                                    <option class="inputStyle">June</option>
+                                    <option class="inputStyle">July</option>
+                                    <option class="inputStyle">August</option>
+                                    <option class="inputStyle">September</option>
+                                </select>
+                            <div class="invalid-feedback invalidStyle">
+                                Please select a month
+                            </div>
+                        </div>
+                    <br>    
+                        <div class="form-group col-3">
+                            <label class="labelText" for="validationServer04">Year</label>
+                                <select class="custom-select" id="validationServer04" aria-  describedby="validationServer04Feedback" required>
+                                    <option style="color:#201D1F;" selected disabled value="">Please Select</option>
+                                    <option class="inputStyle">2021</option>
+                                    <option class="inputStyle">2022</option>
+                                    <option class="inputStyle">2023</option>
+                                </select>
+                            <div class="invalid-feedback invalidStyle">
+                                Please select a year
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary inputStyle btnStyle">Add</button>
+                </form>
+                
+                <script>
+                (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                    var forms = document.getElementsByClassName('needs-validation');
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                    });
+                }, false);
+                })();
+                </script>
+            </div>
+            
+            <br>
+            
+            <div class="about">
+   <a class="bg_links social portfolio" href="https://www.rafaelalucas.com" target="_blank">
+      <span class="icon"></span>
+   </a>
+   <a class="bg_links social dribbble" href="https://dribbble.com/rafaelalucas" target="_blank">
+      <span class="icon"></span>
+   </a>
+   <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="_blank">
+      <span class="icon"></span>
+   </a>
+   <a class="bg_links logo"></a>
+</div>
+
+   
+   <div class="content">
+
+      <a class="card" href="soon.html">
+         
+            <div class="icon"><i class="material-icons md-36">badge</i></div>
+            <p class="title">Profile</p>
+            <p class="text">Click to see or edit your profile page.</p>
+         
+      </a>
+
+      <a class="card" href="form.html">
+         
+            <div class="icon"><i class="material-icons md-36">festival</i></div>
+            <p class="title">Add Festival</p>
+            <p class="text">Can't see what you're looking for? Add a festival here!</p>
+         
+      </a>
+   
+            </div>
+            
+            <!--<footer class="footer footerText">
+                <h3>Our Community | Copyright</h3>
+            </footer>-->
+    </body>
+</html>
